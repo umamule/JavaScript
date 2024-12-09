@@ -1,3 +1,8 @@
+// THERE ARE TWO OF DECLARATION IN OBJECT 
+// 1)LITERAL=> multiple obj =>multiple obj
+// 2)CONSTRUCTOR=>singlton type od obj 
+
+
 // singleton=>
 // Object.create
 
