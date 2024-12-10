@@ -1,3 +1,6 @@
+//this keyword is about current content 
+
+
 const user = {
     username: "hitesh",
     price: 999,
@@ -29,11 +32,11 @@ const user = {
 
 const chai =  () => {
     let username = "hitesh"
-    console.log(this);
+    console.log(this.username);
 }
 
-
-// chai()
+//chai.username="uma"
+//chai()
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
@@ -43,12 +46,16 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+//const addTwo = (num1, num2) => ({username: "hitesh"})
 
 
-console.log(addTwo(3, 4))
+//console.log(addTwo(3, 4))
 
 
-// const myArray = [2, 5, 3, 7, 8]
+const myArray = [2, 5, 3, 7, 8]
 
-// myArray.forEach()
+
+
+// console.log(myArray.forEach(3));
+// 
+    
