@@ -6,7 +6,7 @@ window.addEventListener('keydown', (e) => {
     <table>
     <tr>
       <th>Key</th>
-      <th>Keycode</th> 
+      <th>Key code</th> 
       <th>Code</th>
     </tr>
     <tr>
